@@ -1,0 +1,11 @@
+{
+  "name": "which-node-env",
+  "version": "1.0.0",
+  "description": "Tells you which NODE_ENV you're in.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Chilton <andychilton@gmail.com>",
+  "license": "ISC"
+}
