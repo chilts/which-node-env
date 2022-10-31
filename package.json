@@ -4,6 +4,7 @@
   "description": "Tells you which NODE_ENV you're in.",
   "version": "1.1.0",
   "main": "index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "build": "npx -p typescript tsc *.js --declaration --allowJs --emitDeclarationOnly --outDir types"
   },
