@@ -1,10 +1,14 @@
 {
   "name": "which-node-env",
-  "version": "1.0.0",
+  "title": "Which node env?",
   "description": "Tells you which NODE_ENV you're in.",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx -p typescript tsc *.js --declaration --allowJs --emitDeclarationOnly --outDir types"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
   },
   "author": "Andrew Chilton <andychilton@gmail.com>",
   "license": "ISC"

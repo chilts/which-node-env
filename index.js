@@ -4,8 +4,7 @@ const isTest  = nodeEnv === "test"  || nodeEnv === "testing"
 const isStage = nodeEnv === "stage" || nodeEnv === "staging"
 const isProd  = nodeEnv === "prod"  || nodeEnv === "production"
 
-let isUnknown = false
-isUnknown = !isDev && !isTest && !isStage && !isProd
+const isUnknown = !isDev && !isTest && !isStage && !isProd
 
 module.exports = {
   nodeEnv,
