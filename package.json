@@ -2,7 +2,7 @@
   "name": "which-node-env",
   "title": "Which node env?",
   "description": "Tells you which NODE_ENV you're in.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "build": "npx -p typescript tsc *.js --declaration --allowJs --emitDeclarationOnly --outDir types"
