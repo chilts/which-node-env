@@ -2,7 +2,7 @@
   "name": "which-node-env",
   "title": "Which node env?",
   "description": "Tells you which NODE_ENV you're in.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "index.js",
   "types": "./types/index.d.ts",
   "scripts": {
