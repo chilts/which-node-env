@@ -20,10 +20,14 @@ NODE_ENV=prod node t.js
 NODE_ENV=production node t.js
 echo
 
+echo "Bad:"
+NODE_ENV=bad node t.js
+NODE_ENV=1 node t.js
+echo
+
 echo "Unknown env:"
 node t.js
 NODE_ENV= node t.js
-NODE_ENV=sdf node t.js
 echo
 
 echo "(Ends)"
